@@ -23,7 +23,7 @@ This package provides a seamless integration between Autoware's steering control
 
 | Topic | Type | Description |
 |-------|------|-------------|
-| `/api/control/command/steering` | [`autoware_adapi_v1_msgs/msg/SteeringCommand`](autoware_adapi_msgs/autoware_adapi_v1_msgs/common/msg/SteeringCommand.msg) | Steering commands from Autoware containing tire angle in radians |
+| `/api/control/command/steering` | [`autoware_adapi_v1_msgs/msg/SteeringCommand`](https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-interfaces/ad-api/types/autoware_adapi_v1_msgs/msg/SteeringCommand/) | Steering commands from Autoware containing tire angle in radians |
 
 ### Published Topics
 
