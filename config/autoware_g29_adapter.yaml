@@ -1,0 +1,15 @@
+autoware_g29_adapter:
+  ros__parameters:
+    # Steering conversion parameters
+    steering_ratio: 15.0  # Ratio to convert tire angle to steering wheel angle (wheel_angle = tire_angle * ratio)
+    
+    # G29 wheel limits
+    max_steering_angle_deg: 300.0  # Maximum steering wheel angle in degrees (G29 range is ±450°, but typically limited)
+    
+    # Force feedback parameters
+    default_torque: 0.2  # Default torque value for force feedback (0.0 to 1.0, where 1.0 = 2.5 Nm)
+    
+    # Steering direction configuration
+    # Set to true for G29 (inverts Autoware's negative=right convention to G29's negative=left)
+    # Set to false for steering wheels that match Autoware's convention (negative=right)
+    invert_steering_direction: true
