@@ -98,7 +98,7 @@ Output: position = -0.191, torque = 0.5
 ### Prerequisites
 
 - ROS 2 Humble or later
-- [`ros-g29-force-feedback`](../ros-g29-force-feedback/) package
+- [`ros-g29-force-feedback`](https://github.com/billynugrahas/autoware_g29_adapter) package
 - Autoware message packages:
   ```bash
   sudo apt install ros-$ROS_DISTRO-autoware-adapi-v1-msgs ros-$ROS_DISTRO-autoware-msgs
